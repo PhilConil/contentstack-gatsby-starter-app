@@ -1,0 +1,56 @@
+{
+  "name": "contentstack-gatsby-starter-app",
+  "private": true,
+  "description": "A simple starter app build using Gatsby and Contentstack",
+  "version": "1.3.2",
+  "author": "Contentstack",
+  "dependencies": {
+    "@contentstack/live-preview-utils": "^1.0.1",
+    "@contentstack/utils": "^1.1.1",
+    "@popperjs/core": "^2.11.0",
+    "bootstrap": "^5.1.3",
+    "contentstack": "^3.15.0",
+    "dotenv": "^16.0.0",
+    "gatsby": "^4.7.1",
+    "gatsby-plugin-env-variables": "^2.2.0",
+    "gatsby-plugin-image": "^2.6.0",
+    "gatsby-plugin-manifest": "^4.6.0",
+    "gatsby-plugin-offline": "^5.6.0",
+    "gatsby-plugin-react-helmet": "^5.6.0",
+    "gatsby-plugin-robots-txt": "^1.7.0",
+    "gatsby-plugin-sharp": "^4.6.0",
+    "gatsby-plugin-sitemap": "^5.6.0",
+    "gatsby-source-contentstack": "^4.0.1",
+    "gatsby-source-filesystem": "^4.6.0",
+    "gatsby-transformer-sharp": "^4.6.0",
+    "html-react-parser": "^1.4.4",
+    "moment": "^2.29.1",
+    "prop-types": "^15.8.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
+    "react-json-view": "^1.21.3",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2"
+  },
+  "keywords": [
+    "gatsby",
+    "Contentstack"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop -p 3000",
+    "format": "prettier --write \"**/*.{js,css,html,jsx,ts,tsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": "https://github.com/contentstack/contentstack-gatsby-starter-app"
+  }
+}
